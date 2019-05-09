@@ -104,11 +104,11 @@ textarea {
 
 
 
-.img{
-max-width: 720px;
-    max-height: 660px;
+img {
+    max-width: 50%;
+    height: auto;
+    }
 
-}
 
 
 
