@@ -32,8 +32,8 @@
 
     var elem = document.createElement("img");
     elem.setAttribute("src", path + img);
-    elem.setAttribute("height", "1024");
-    elem.setAttribute("width", "768");
+    //elem.setAttribute("height", "1024");
+    //elem.setAttribute("width", "768");
     elem.setAttribute("alt", "Is Your Motherwell");
 
      var element = document.getElementById("placeholder");
@@ -46,13 +46,14 @@
   <!-- Add your site or application content here -->
   <h1>Is Your Motherwell?</h1>
   <p>
-  <button onclick="getRandomImage(random_images_array)">Click me</button>
+  <button onclick="getRandomImage(random_images_array)">Find Out</button>
   </p>
+   </center>
   <p>
-    <div id="placeholder"><p></p></div>
+    <div id="placeholder" style="max-width: 500px"><p></p></div>
   </p>
 
-  </center>
+
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
